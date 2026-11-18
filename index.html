@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>samsync – Privacy Policy</title>
+<style>
+  :root { --bg: #fdfdfc; --fg: #1d1d1b; --muted: #5f5f5a; --rule: #e4e4df; --link: #1f5fbf; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161615; --fg: #ececea; --muted: #a3a39d; --rule: #2e2e2b; --link: #7fb0ff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--link); }
+  ul { padding-left: 1.2em; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>samsync</h1>
+  <p class="meta">Privacy Policy · Last updated November 18, 2026</p>
+
+  <p>samsync is a small personal tool run by Sam Raphael for himself and his family.
+  It is not a commercial product and is not offered to the public.</p>
+
+  <h2>What it does</h2>
+  <p>When a person likes a video on YouTube, samsync saves that video as a bookmark
+  in the same person's own Raindrop.io account.</p>
+
+  <h2>What data it accesses</h2>
+  <ul>
+    <li><strong>YouTube (read-only):</strong> the list of videos the signed-in account has liked,
+    using the <code>youtube.readonly</code> permission. samsync cannot post, comment, like,
+    subscribe, upload or change anything on YouTube.</li>
+    <li><strong>Raindrop.io:</strong> it adds bookmarks (video link and title) to the
+    person's own Raindrop account using a token that person provides.</li>
+  </ul>
+
+  <h2>Where data is stored</h2>
+  <p>The Google access token and a list of already-saved video IDs are stored only on
+  a computer Sam controls. Nothing is stored on any other server, and the data is not
+  used for advertising or analytics.</p>
+
+  <h2>Sharing</h2>
+  <p>No data is sold or shared with anyone. Video links go only to the person's
+  own Raindrop.io account.</p>
+
+  <h2>Removing access</h2>
+  <p>You can revoke samsync's access to your Google account at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  You can delete the Raindrop token at
+  <a href="https://app.raindrop.io/settings/integrations">app.raindrop.io/settings/integrations</a>.
+  If you ask, the locally stored data is deleted.</p>
+
+  <p>samsync's use of information received from Google APIs follows the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <footer>Questions: <a href="mailto:samraphael@gmail.com">samraphael@gmail.com</a></footer>
+</main>
+</body>
+</html>
